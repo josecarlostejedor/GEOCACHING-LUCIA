@@ -5,13 +5,13 @@
 
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Home from './components/Home';
-import Info from './components/Info';
-import MapQuest from './components/MapQuest';
-import Leaderboard from './components/Leaderboard';
-import Profile from './components/Profile';
-import Registration from './components/Registration';
+import Layout from '@/src/components/Layout';
+import Home from '@/src/components/Home';
+import Info from '@/src/components/Info';
+import MapQuest from '@/src/components/MapQuest';
+import Leaderboard from '@/src/components/Leaderboard';
+import Profile from '@/src/components/Profile';
+import Registration from '@/src/components/Registration';
 import { MissionProvider } from '@/src/context/MissionContext';
 
 export default function App() {
@@ -37,5 +37,4 @@ export default function App() {
     </MissionProvider>
   );
 }
-
 
