@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import { Link, useLocation, Outlet } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/src/lib/utils.ts';
 
 const navItems = [
   { path: '/', icon: Compass, label: 'Inicio' },
