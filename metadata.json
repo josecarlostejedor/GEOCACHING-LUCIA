@@ -1,0 +1,5 @@
+{
+  "name": "Búsqueda de Tesoros IES Lucía de Medrano",
+  "description": "Aplicación educativa de Búsqueda de Tesoros para alumnos de 1º de Bachillerato del IES Lucía de Medrano, diseñada por José Carlos Tejedor Lorenzo.",
+  "requestFramePermissions": ["geolocation"]
+}
