@@ -12,7 +12,7 @@ import MapQuest from './components/MapQuest';
 import Leaderboard from './components/Leaderboard';
 import Profile from './components/Profile';
 import Registration from './components/Registration';
-import { MissionProvider } from './context/MissionContext';
+import { MissionProvider } from '@/src/context/MissionContext';
 
 export default function App() {
   useEffect(() => {
@@ -37,4 +37,5 @@ export default function App() {
     </MissionProvider>
   );
 }
+
 
